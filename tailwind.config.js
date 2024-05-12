@@ -2,7 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   fontFamily: {
-    rubik: ["Rubik", "sans-serif"],
+    worksans: ["Work Sans", "sans-serif"],
   },
   theme: {
     extend: {
@@ -10,7 +10,7 @@ export default {
         primaryColor: "#003F8F",
         darkText: "#0E0F0E",
         whiteText: "#EBECED",
-        bgColor: "#F9F9F9",
+        bgColor: "#EBEDEC",
         grey: "#60606F",
         black: "#000000",
         white: "#FFFFFF",

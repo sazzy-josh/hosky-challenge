@@ -1,16 +1,16 @@
 // import React from "react";
-import {TopbarItems} from "../../utilities/constants";
+import {contactDetails} from "../../utilities/constants";
 
 const TopBar = () => {
   return (
     <section className='bg-primaryColor py-2 xl:py-4'>
       <div className='flex flex-col md:flex-row justify-end gap-x-3 max-w-[1283px] mx-auto px-4 xl:px-0 '>
-        {TopbarItems?.map((item, idx) => {
+        {contactDetails?.map((item, idx) => {
           return (
             <div
               key={idx}
               className={`flex items-center ${
-                idx !== TopbarItems.length - 1 ? "mb-1 lg:mb-0" : " "
+                idx !== contactDetails.length - 1 ? "mb-1 lg:mb-0" : " "
               }`}
             >
               <img

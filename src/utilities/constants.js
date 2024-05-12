@@ -2,7 +2,7 @@ import sendSvg from "../assets/svg/send.svg";
 import phone from "../assets/svg/phone.svg";
 import instagram from "../assets/svg/instagram.svg";
 
-export const TopbarItems = [
+export const contactDetails = [
   {
     icon: sendSvg,
     text: "rcstone2@icloud.com",
@@ -20,7 +20,7 @@ export const TopbarItems = [
   },
 ];
 
-export const NavItems = [
+export const navItems = [
   {text: "HOME", isActive: false},
   {text: "ABOUT US", isActive: true},
   {text: "SERVICES", isActive: false},

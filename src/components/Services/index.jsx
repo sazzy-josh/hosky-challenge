@@ -9,7 +9,7 @@ import SnowRemoval from "./SnowRemoval";
 
 const ServicesLayout = () => {
   return (
-    <section className='bg-[#EBEDEC]'>
+    <section className='bg-bgColor'>
       <div className='max-w-[1283px] mx-auto px-4 xl:px-0'>
         <div className='flex justify-between text-base pt-4 xl:pt-8'>
           <div className='flex items-center '>
