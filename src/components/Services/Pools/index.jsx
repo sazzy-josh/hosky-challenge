@@ -50,7 +50,7 @@ const Pools = () => {
 
       <div className='w-full xl:w-8/12 flex justify-center'>
         <img
-          className='h-[350px] xl:h-[555px] object-contain'
+          className='h-[350px] xl:h-[555px] object-cover rounded-3xl'
           src={PoolImg}
           alt='pool'
         />

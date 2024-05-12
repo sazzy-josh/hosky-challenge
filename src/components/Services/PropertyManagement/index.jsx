@@ -8,7 +8,7 @@ const PropertyManagement = () => {
     <div className='flex flex-col-reverse sm:justify-center xl:flex-row xl:gap-x-5 w-full mb-6'>
       <div className='w-full xl:w-8/12 flex justify-center'>
         <img
-          className='h-[350px] xl:h-[478px] object-contain'
+          className='h-[350px] xl:h-[478px] object-cover rounded-3xl'
           src={PropertyManagentImg}
           alt='pool'
         />
