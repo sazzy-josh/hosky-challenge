@@ -34,23 +34,25 @@ const Navbar = () => {
       </div>
 
       {/* MOBILE NAVIGATION */}
-      <div className='flex justify-between xl:hidden py-4 px-4 xl:px-0'>
-        <img
-          src={Logo}
-          alt='company_logo'
-          className='mr-auto'
-          width={40}
-          height={40}
-        />
+      <>
+        <div className='flex items-center justify-between xl:hidden py-4 px-4 xl:px-0'>
+          <img
+            src={Logo}
+            alt='company_logo'
+            className='mr-auto'
+            width={40}
+            height={40}
+          />
 
-        <img
-          src={MenuIcon}
-          alt='menuIcon'
-          className='ml-auto'
-          width={40}
-          height={40}
-        />
-      </div>
+          <img
+            src={MenuIcon}
+            alt='menuIcon'
+            className='ml-auto'
+            width={45}
+            height={45}
+          />
+        </div>
+      </>
     </section>
   );
 };
