@@ -1,9 +1,13 @@
-// import {useState} from "react";
-
-import "./App.css";
+import {Navbar, Services, Topbar} from "./components";
 
 function App() {
-  return <div>Hello guys</div>;
+  return (
+    <main>
+      <Topbar />
+      <Navbar />
+      <Services />
+    </main>
+  );
 }
 
 export default App;
