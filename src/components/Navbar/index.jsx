@@ -1,11 +1,13 @@
 // import React from 'react'
 import {navItems} from "../../utilities/constants";
 import Logo from "../../assets/images/logo.png";
+import MenuIcon from "../../assets/svg/hamburger.svg";
 
 const Navbar = () => {
   return (
-    <section className='max-w-[1283px] mx-auto hidden xl:block'>
-      <div className='w-full flex items-center py-5 xl:py-7'>
+    <section className='max-w-[1283px] mx-auto'>
+      {/* DESKTOP NAVIGATION */}
+      <div className='w-full items-center py-5 xl:py-7 hidden xl:flex'>
         <header className='flex justify-between w-6/12'>
           {navItems.map((item, idx) => {
             return (
@@ -28,6 +30,25 @@ const Navbar = () => {
           className='ml-auto'
           width={58}
           height={58}
+        />
+      </div>
+
+      {/* MOBILE NAVIGATION */}
+      <div className='flex justify-between xl:hidden py-4 px-4 xl:px-0'>
+        <img
+          src={Logo}
+          alt='company_logo'
+          className='mr-auto'
+          width={40}
+          height={40}
+        />
+
+        <img
+          src={MenuIcon}
+          alt='menuIcon'
+          className='ml-auto'
+          width={40}
+          height={40}
         />
       </div>
     </section>
