@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
 
       {/* MOBILE NAVIGATION */}
-      <>
+      {/* <>
         <div className='flex items-center justify-between xl:hidden py-4 px-4 xl:px-0'>
           <img
             src={Logo}
@@ -52,7 +52,7 @@ const Navbar = () => {
             height={45}
           />
         </div>
-      </>
+      </> */}
     </section>
   );
 };
