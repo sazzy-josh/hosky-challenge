@@ -1,4 +1,11 @@
-import {Footer, Navbar, Services, Topbar} from "./components";
+import {
+  AboutUs,
+  Footer,
+  Navbar,
+  Services,
+  SlideShow,
+  Topbar,
+} from "./components";
 
 function App() {
   return (
@@ -6,6 +13,8 @@ function App() {
       <Topbar />
       <Navbar />
       <Services />
+      <AboutUs />
+      <SlideShow />
       <Footer />
     </main>
   );

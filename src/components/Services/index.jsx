@@ -12,7 +12,7 @@ const ServicesLayout = () => {
     <section className='bg-bgColor'>
       <div className='max-w-[1283px] mx-auto px-4 xl:px-0'>
         <div className='flex justify-between text-base pt-4 xl:pt-8'>
-          <div className='flex items-center '>
+          <div className='flex items-center'>
             <img
               src={LeftArrow}
               className='w-4 h-4 xl:w-6 xl:h-6'
