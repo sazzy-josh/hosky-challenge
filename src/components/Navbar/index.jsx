@@ -1,13 +1,13 @@
 // import React from 'react'
-import {NavItems} from "../../utilities/constants";
+import {navItems} from "../../utilities/constants";
 import Logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   return (
-    <section className='max-w-[1283px] mx-auto'>
-      <div className='w-full flex items-center py-7'>
+    <section className='max-w-[1283px] mx-auto hidden xl:block'>
+      <div className='w-full flex items-center py-5 xl:py-7'>
         <header className='flex justify-between w-6/12'>
-          {NavItems.map((item, idx) => {
+          {navItems.map((item, idx) => {
             return (
               <a
                 href='#'
