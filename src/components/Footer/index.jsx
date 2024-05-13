@@ -48,7 +48,6 @@ const Footer = () => {
                 {" "}
                 QUICK LINKS{" "}
               </h3>
-              {/* "Contact", "Projects", */}
               <div className='flex flex-col xl:flex-row gap-x-6'>
                 <div className='flex flex-col'>
                   {["Homepage", "About Us", "Services"].map(
