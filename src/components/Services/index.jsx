@@ -1,5 +1,8 @@
 // import React from "react";
+import {useState} from "react";
 import LeftArrow from "../../assets/svg/left-arrow.svg";
+import {dropDownItems} from "../../utilities/constants";
+import DropDown from "../Dropdown";
 import GeneralContracting from "./GeneralContracting";
 import InterLocking from "./Interlocking";
 import Landscaping from "./Landscaping";
@@ -8,6 +11,15 @@ import PropertyManagement from "./PropertyManagement";
 import SnowRemoval from "./SnowRemoval";
 
 const ServicesLayout = () => {
+  const [selectedItem, setSelectedItem] = useState({
+    text: "Services",
+    value: "services",
+  });
+
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+  };
+
   return (
     <section className='bg-bgColor'>
       <div className='max-w-[1283px] mx-auto px-4 xl:px-0'>
@@ -24,9 +36,19 @@ const ServicesLayout = () => {
           <p className='text-[#565450]'>Home / Services</p>
         </div>
 
-        <h3 className='text-darkText text-xl xl:text-2xl pt-5 xl:pt-9 font-medium'>
-          Services
-        </h3>
+        <div className='flex items-center justify-between w-full pt-5 xl:pt-9'>
+          <h3 className='text-darkText text-xl capitalize xl:text-2xl  font-medium'>
+            {selectedItem.value}
+          </h3>
+
+          <DropDown
+            width='210px'
+            closeOnClick
+            selectedItem={selectedItem}
+            dropdownItems={dropDownItems}
+            handleSelectedItem={handleItemClick}
+          />
+        </div>
 
         <div className='py-8 xl:py-16'>
           <h2 className='text-darkText font-bold text-3xl xl:text-4xl mb-4 leading-[35px] xl:leading-[46px]'>
