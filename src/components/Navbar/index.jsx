@@ -1,7 +1,6 @@
 // import React from 'react'
 import {navItems} from "../../utilities/constants";
 import Logo from "../../assets/images/logo.png";
-import MenuIcon from "../../assets/svg/hamburger.svg";
 
 const Navbar = () => {
   return (
