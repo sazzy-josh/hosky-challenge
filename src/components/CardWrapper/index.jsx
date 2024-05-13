@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const CardWrapper = ({children}) => {
   return (
     <div
-      className={`bg-white px-6 xl:px-12 py-8 xl:py-12 rounded-3xl h-full flex flex-col justify-center`}
+      className={`bg-white px-6 xl:px-12 py-8 xl:py-12 rounded-3xl h-full flex flex-col justify-center hover:bg-blue-50`}
     >
       {children}
     </div>
