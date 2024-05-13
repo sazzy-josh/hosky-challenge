@@ -15,7 +15,7 @@ const Navbar = () => {
                 key={idx}
                 className={`${
                   item.isActive ? "font-bold text-primaryColor" : "text-grey"
-                } text-base`}
+                } text-base hover:font-bold text-primaryColor`}
               >
                 {item.text}
               </a>
@@ -31,27 +31,6 @@ const Navbar = () => {
           height={58}
         />
       </div>
-
-      {/* MOBILE NAVIGATION */}
-      {/* <>
-        <div className='flex items-center justify-between xl:hidden py-4 px-4 xl:px-0'>
-          <img
-            src={Logo}
-            alt='company_logo'
-            className='mr-auto'
-            width={40}
-            height={40}
-          />
-
-          <img
-            src={MenuIcon}
-            alt='menuIcon'
-            className='ml-auto'
-            width={45}
-            height={45}
-          />
-        </div>
-      </> */}
     </section>
   );
 };

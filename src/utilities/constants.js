@@ -65,3 +65,11 @@ export const sliderImages = [
   slideImg4,
   slideImg5,
 ];
+
+export const dropDownItems = [
+  {text: "Services", value: "services"},
+  {text: "Property Mgt", value: "properties"},
+  {text: "Pool Mgt", value: "pool"},
+  {text: "Interlocking", value: "interlocking"},
+  {text: "General cleaning", value: "general"},
+];
