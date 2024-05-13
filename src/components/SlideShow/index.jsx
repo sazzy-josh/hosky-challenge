@@ -9,15 +9,13 @@ const SlideShow = () => {
         <Slider {...settings}>
           {sliderImages.map((img, idx) => {
             return (
-              <>
-                <div className='px-2 overflow-hidden' key={idx}>
-                  <img
-                    src={img}
-                    alt={img}
-                    className='h-[400px] rounded-2xl object-cover'
-                  />
-                </div>
-              </>
+              <div className='px-2 overflow-hidden' key={idx}>
+                <img
+                  src={img}
+                  alt={img}
+                  className='h-[400px] rounded-2xl object-cover'
+                />
+              </div>
             );
           })}
         </Slider>

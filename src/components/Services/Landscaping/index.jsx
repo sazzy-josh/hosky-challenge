@@ -16,7 +16,7 @@ const Landscaping = () => {
               <p className='block xl:hidden'>Landscaping & Hardscaping </p>
             </h4>
 
-            <p className='text-base leading-[18.70px]'>
+            <p className='text-base leading-[18.70px] mb-4 xl:mb-0 '>
               Our landscaping and hardscaping services encompass a range of
               options to enhance the beauty and functionality of your outdoor
               space, including:
@@ -28,7 +28,7 @@ const Landscaping = () => {
               Turf Installation
             </h4>
 
-            <p className='text-base leading-[18.70px]'>
+            <p className='text-base mb-4 xl:mb-0 leading-[18.70px]'>
               Achieve the green lawn you've always desired with our expert turf
               installation
             </p>

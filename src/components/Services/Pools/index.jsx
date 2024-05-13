@@ -13,7 +13,7 @@ const Pools = () => {
               Pools
             </h4>
 
-            <p className='text-base leading-[18.70px]'>
+            <p className='text-base leading-[18.70px] mb-4 xl:mb-0'>
               Elevate your outdoor living experience with our comprehensive pool
               services, including:
             </p>
@@ -24,7 +24,7 @@ const Pools = () => {
               Full Installation
             </h4>
 
-            <p className='text-base leading-[18.70px]'>
+            <p className='text-base leading-[18.70px] mb-4 xl:mb-0'>
               We specialize in creating and installing stunning pools that
               perfectly complement your landscape and personal style.
             </p>
